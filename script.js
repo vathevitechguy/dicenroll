@@ -61,7 +61,7 @@ btnRoll.addEventListener('click', function() {
     diceEl.classList.remove('hidden');
     diceEl.src = `dice-${dice}.png`;
 
-    if (dice !== 1) {
+    if (dice !== 100) {
       currentScore += dice;
       document.getElementById(`current--${activePlayer}`).textContent = currentScore;
     }
