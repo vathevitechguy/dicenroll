@@ -83,7 +83,7 @@ btnHold.addEventListener('click', function() {
     document.getElementById(`score--${activePlayer}`).textContent = finalScore[activePlayer];
     console.log(finalScore[activePlayer] + " Data Saved");
 
-    if (finalScore[activePlayer] >= 1) {
+    if (finalScore[activePlayer] >= 100) {
       playing = false;
       diceEl.classList.add('hidden');
       document
