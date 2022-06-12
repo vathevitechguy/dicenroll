@@ -59,7 +59,7 @@ btnRoll.addEventListener('click', function() {
     let dice = diceRollGenerator();
     // Reveal Dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `assets/images/dice-${dice}.png`;
 
     if (dice !== 1) {
       currentScore += dice;
